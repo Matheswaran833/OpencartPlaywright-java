@@ -1,0 +1,14 @@
+/app/src/test/java/pageObject/AccountRegistrationPage.java
+/app/src/test/java/utilities/DataProviders.java
+/app/src/test/java/testBase/BaseTest.java
+/app/src/test/java/utilities/ExcelUtility.java
+/app/src/test/java/utilities/ScreenshotUtil.java
+/app/src/test/java/pageObject/BasePage.java
+/app/src/test/java/utilities/ExtentReportManager.java
+/app/src/test/java/pageObject/LoginPage.java
+/app/src/test/java/pageObject/HomePage.java
+/app/src/test/java/testCases/TC003_LoginDDT.java
+/app/src/test/java/utilities/VideoTraceManager.java
+/app/src/test/java/testCases/TC001_AccountRegistrationTest.java
+/app/src/test/java/testCases/TC002_LoginTest.java
+/app/src/test/java/pageObject/MyAccountPage.java

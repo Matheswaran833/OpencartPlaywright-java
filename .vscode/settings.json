@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "maven.terminal.favorites": [
+        {
+            "command": "clean install",
+            "debug": false
+        },
+        {
+            "command": "clean test",
+            "debug": false
+        }
+    ]
+}
