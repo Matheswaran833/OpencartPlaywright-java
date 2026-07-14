@@ -1,0 +1,21 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: JavaToolInstaller@1
+  inputs:
+    versionSpec: '21'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
+
+- script: mvn -B install -DskipTests --no-transfer-progress
+  displayName: 'Build Project'
+
+- script: mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps"
+  displayName: 'Install Playwright Browsers'
+
+- script: mvn test
+  displayName: 'Run Playwright Tests'
